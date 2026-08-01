@@ -1,4 +1,6 @@
 site_name: زیست‌شناسی پایه دهم | BIOLOS
+site_url: https://biolos-platform.github.io/
+
 theme:
   name: material
   language: fa
@@ -24,5 +26,5 @@ theme:
 
 markdown_extensions:
   - attr_list
-  - admoition
+  - admonition
   - def_list
