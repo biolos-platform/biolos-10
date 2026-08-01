@@ -1,0 +1,28 @@
+site_name: زیست‌شناسی پایه دهم | BIOLOS
+theme:
+  name: material
+  language: fa
+  direction: rtl
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: حالت شب
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: حالت روز
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - attr_list
+  - admoition
+  - def_list
